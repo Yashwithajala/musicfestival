@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fictional Music Festival 2025 - Experience the ultimate music festival">
+    <title>Fictional Music Festival 2025</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nico+Moji&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nico+Moji&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nico+Moji&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/vue@3.5.13/dist/vue.global.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>">
+    <style type="text/css">
+        .lia{
+            font-family: Arial, Helvetica, sans-serif;
+            
+            padding: 14px 16px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        #lia1{
+            float: right;
+            border: 1px solid #0a0a0a;
+        }
+        .ula{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    
+        <!-- Navigation -->
+        <nav>
+            <ul class="ula">
+               <li class="lia" id="lia1" >    <a href="#home">Home</a></li>
+                  <li class="lia" id="lia1" >   <a href="#lineup">Lineup</a></li>
+                 <li class="lia" id="lia1" >    <a href="#tickets" >Tickets</a></li>
+                 <li class="lia" id="lia1" >    <a href="#schedule" >Schedule</a></li>
+                  <li class="lia" id="lia1" >   <a href="#about" class=>About</a></li>
+                 <li class="lia" id="lia1" >    <a href="#contact" class=>Contact</a></li>
+                </div>
+            </div></ul>
+        </nav>
+<br>
+        <!-- Hero Section -->
+        <div class="max-w-7xl mx-auto px-4 py-32 bg-[url('https://images.unsplash.com/photo-1566808907623-51b8fc382454?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center text-white">
+            <h1 class="text-5xl font-bold text-center mb-4 font-['Nico_Moji']">Fictional Music Festival 2025</h1>
+            <p class="text-2xl text-center text-gray-100 mb-12">Experience the ultimate music festival</p>
+            <div class="flex justify-center space-x-4">
+                <button @click="scrollToTickets" class="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800">
+                    Get Tickets
+                </button>
+                 <button @click="scrollToLineup" class="border border-black px-6 py-3 rounded-lg hover:bg-gray-100 hover:text-black">
+                    See Lineup
+                </button>
+            </div>
+        </div>
+        
+
+        <!-- Lineup Section -->
+        <div id="lineup" class="max-w-7xl mx-auto px-4 py-16 border-t">
+            <h2 class="text-4xl font-bold text-center mb-12 font-['Nico_Moji']">Festival LineUp</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="text-center">
+                    <div class="aspect-square mb-4 rounded-lg overflow-hidden">
+                        <img src="https://i.pinimg.com/474x/fe/30/69/fe3069f9e58256a17b3af173e9ecebed.jpg" alt="Artist 3" class="w-full h-full object-cover">
+                    </div><h3 class="text-xl font-bold">CAMILO CABELLO</h3>
+                    <p class="text-gray-600">Sensation</p>
+                </div>
+                <div class="text-center">
+                    <div class="aspect-square mb-4 rounded-lg overflow-hidden">
+                        <img src="https://i.pinimg.com/1200x/0f/90/04/0f90048a3cd1e188afad18065fa46a9e.jpg" alt="Artist 1" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-bold">ARIANA GRANDE</h3>
+                    <p class="text-gray-600">pop Star</p>
+                    
+                    
+                </div>
+                <div class="text-center">
+                    <div class="aspect-square mb-4 rounded-lg overflow-hidden">
+                        <img src="https://i.pinimg.com/736x/c7/6d/04/c76d045642d13df1114b5a42512f1953.jpg" alt="Artist 3" class="w-full h-full object-cover">
+                    
+                
+                    </div><h3 class="text-xl font-bold">Taylor Swift</h3>
+                    <p class="text-gray-600">Pop Icon</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tickets Section -->
+        <div id="tickets" class="max-w-7xl mx-auto px-4 py-16 border-t">
+            <h2 class="text-4xl font-bold text-center mb-8 font-['Nico_Moji']">Get Tickets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-bold mb-2">1-Day Pass</h3>
+                    <p class="text-3xl font-bold mb-4">$99</p>
+                    <ul class="mb-6 space-y-2">
+                        <li>✓ Single day access</li>
+                        <li>✓ Access to all stages</li>
+                        <li>✓ Food court access</li>
+                    </ul>
+                    <button class="w-full bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800">Buy Now</button>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow bg-black text-white">
+                    <h3 class="text-2xl font-bold mb-2">3-Day Pass</h3>
+                    <p class="text-3xl font-bold mb-4">$249</p>
+                    <ul class="mb-6 space-y-2">
+                        <li>✓ Full festival access</li>
+                        <li>✓ VIP lounge access</li>
+                        <li>✓ Meet & greet passes</li>
+                        <li>✓ Exclusive merch</li>
+                    </ul>
+                    <button class="w-full bg-white text-black px-6 py-3 rounded-lg hover:bg-gray-100">Buy Now</button>
+                </div>
+                <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-bold mb-2">2-Day Pass</h3>
+                    <p class="text-3xl font-bold mb-4">$179</p>
+                    <ul class="mb-6 space-y-2">
+                        <li>✓ Two day access</li>
+                        <li>✓ Access to all stages</li>
+                        <li>✓ Food court access</li>
+                        <li>✓ Festival t-shirt</li>
+                    </ul>
+                    <button class="w-full bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Schedule Section -->
+        <div id="schedule" class="max-w-7xl mx-auto px-4 py-16 border-t">
+            <h2 class="text-4xl font-bold text-center mb-12 font-['Nico_Moji']">Event Schedule</h2>
+            <div class="space-y-6">
+                <div class="flex items-center space-x-8 p-4 bg-pink-50 rounded-lg">
+                    <span class="text-xl font-bold w-32">2:00 PM</span>
+                    <span class="text-xl">CAMILO</span>
+                </div>
+                <div class="flex items-center space-x-8 p-4 bg-blue-50 rounded-lg">
+                    <span class="text-xl font-bold w-32">4:30 PM</span>
+                    <span class="text-xl">ARIANA</span>
+                </div>
+                <div class="flex items-center space-x-8 p-4 bg-orange-50 rounded-lg">
+                    <span class="text-xl font-bold w-32">7:00 PM</span>
+                    <span class="text-xl">TAYLOR</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div id="about" class="max-w-7xl mx-auto px-4 py-16 border-t">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold mb-6 font-['Nico_Moji']">About The Festival</h2>
+                    <p class="text-lg text-gray-600 mb-4">Join us for an unforgettable experience at the Fictional Music Festival 2025. Set against a stunning backdrop, this three-day celebration brings together the world's most talented artists.</p>
+                    <p class="text-lg text-gray-600">Immerse yourself in a diverse range of musical genres, from pop to rock, electronic to indie, all while enjoying world-class amenities and an electric atmosphere.</p>
+                </div>
+                <div class="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
+                    <span class="">
+<img src="band-performing-studio.jpg">
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Merch Section -->
+        <div id="merch" class="max-w-7xl mx-auto px-4 py-16 border-t">
+            <h2 class="text-4xl font-bold text-center mb-12 font-['Nico_Moji']">Festival Merch</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="border rounded-lg p-4">
+                    <div class="aspect-square bg-gray-100 mb-4 rounded-lg flex items-center justify-center">
+                        <span><img src="https://i.pinimg.com/736x/c7/d5/4e/c7d54eda3064b147e9088503b72ce7bc.jpg"> </span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Festival T-Shirt</h3>
+                    <p class="text-gray-600 mb-4">$29.99</p>
+                    <button class="w-full bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800">Buy Now</button>
+                </div>
+                <div class="border rounded-lg p-4">
+                    <div class="aspect-square bg-gray-100 mb-4 rounded-lg flex items-center justify-center">
+                        <span ><img src="https://i.pinimg.com/1200x/f3/90/5a/f3905af5bb91fcd409f5fb2b2ede3add.jpg"> </span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Festival Cap</h3>
+                    <p class="text-gray-600 mb-4">$24.99</p>
+                    <button class="w-full bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800">Buy Now</button>
+                </div>
+                <div class="border rounded-lg p-4">
+                    <div class="aspect-square bg-gray-100 mb-4 rounded-lg flex items-center justify-center">
+                        <span><img src="https://i.pinimg.com/1200x/c6/14/da/c614da8f48507cd92c19686f6986340f.jpg"> </span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Festival Hoodie</h3>
+                    <p class="text-gray-600 mb-4">$49.99</p>
+                    <button class="w-full bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+        <footer class="bg-black text-white py-12">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                    <div>
+                        <h4 class="text-xl font-bold mb-4">About</h4>
+                        <p class="text-gray-400">Experience the ultimate music festival with world-class artists and unforgettable moments.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+                        <ul class="space-y-2 text-gray-400">
+                            <li><a href="#lineup" class="hover:text-white">Lineup</a></li>
+                            <li><a href="#tickets" class="hover:text-white">Tickets</a></li>
+                            <li><a href="#schedule" class="hover:text-white">Schedule</a></li>
+                            <li><a href="#merch" class="hover:text-white">Merch</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-4">Contact</h4>
+                        <ul class="space-y-2 text-gray-400">
+                            <li>Email: @email.com</li>
+                            <li>Phone: 123456789</li>
+                            <li>Address: INDIA</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xl font-bold mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-400 hover:text-white">Instagram</a>
+                            <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+                            <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                    <p>&copy; 2025 Fictional Music Festival. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    <script>
+        const { createApp } = Vue
+        
+        createApp({
+            data() {
+                return {
+                    showTicketModal: false
+                }
+            },
+            methods: {
+                scrollToTickets() {
+                    document.getElementById('tickets').scrollIntoView({ behavior: 'smooth' });
+                },
+                scrollToLineup() {
+                    document.getElementById('lineup').scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        }).mount('#app')
+    </script>
+</body>
+</html>
